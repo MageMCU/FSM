@@ -1,0 +1,13 @@
+Main St. Cross Ave. Traffic Lights
+-------------------
+GREEN - RED - bit number: 0 bits: 0000 0000 0000 0001
+AMBER - RED - bit number: 1 bits: 0000 0000 0000 0010
+RED - RED - bit number: 2 bits: 0000 0000 0000 0100
+RED - GREEN - bit number: 3 bits: 0000 0000 0000 1000
+RED - AMBER - bit number: 4 bits: 0000 0000 0001 0000
+RED - RED - bit number: 5 bits: 0000 0000 0010 0000
+GREEN - RED - bit number: 0 bits: 0000 0000 0000 0001
+AMBER - RED - bit number: 1 bits: 0000 0000 0000 0010
+RED - RED - bit number: 2 bits: 0000 0000 0000 0100
+RED - GREEN - bit number: 3 bits: 0000 0000 0000 1000
+etc.
