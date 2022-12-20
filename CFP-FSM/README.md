@@ -6,8 +6,8 @@
 
 **Dependencies**
 
-- **Bitwise.h**         (Located in Numerics)
-- **Timer.h**           (Located in Joystick-Uno-L298N)
+- **Bitwise.h**         (Located in the depository **Numerics**)
+- **Timer.h**           (Located in the depository **Joystick_Uno_L298N**)
 
 ## ***src folder***
 
