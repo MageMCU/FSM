@@ -1,6 +1,6 @@
 # FSM
 
-### Testing Platform
+## Testing Platform
 
 This MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is described here. The Arduino Uno board comes with a removable MCU.
 
