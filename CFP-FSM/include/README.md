@@ -1,6 +1,6 @@
-## There are two dependencies:
-
-- **Bitwise.h** can be found in *Numerics*.
-- **Timer.h**  can be found in *Joystick_Uno_L298N*.
-
-Place these files here if using VS-Code and PlatformIO
+## ***include folder***
+- **Dependencies**
+    - **Bitwise.h**
+        - Located in the repository *Numerics* 
+    - **Timer.h**
+        - Located in the repository *Joystick_Uno_L298N*
