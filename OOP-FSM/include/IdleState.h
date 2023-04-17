@@ -41,7 +41,7 @@ void IdleState::Execute(Manager *pManager)
 {
     Progress(pManager);
 
-    // ISSUE: pMinor: Incomplete type ----------------------------- FIXME
+    // ISSUE: pManager: Incomplete type ----------------------------- FIXME
     // pManager->GetFSM()->ChangeState(TestState::Instance());
 }
 
