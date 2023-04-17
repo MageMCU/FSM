@@ -1,7 +1,6 @@
-## CFP-FSM
-- C-style function pointer (**CFP**)
+## OOP-FSM
+- Templated object oriented programming (**OOP**)
 - Finite State Machine (**FSM**)
-    - Although the acronym is quite common, the CFP-FSM does not have a state machine except a switch statement for state control.
 
 ## ***include folder***
 - **BaseEntity.h** 
