@@ -1,6 +1,6 @@
 //
 // Carpenter Software
-// File: include: State.h
+// File: src: XCPP: BaseManager.cpp
 //
 // Purpose: Public Github Account - MageMCU
 // Repository: FSM
@@ -22,19 +22,11 @@
 // MIT LICENSE
 //
 
-#ifndef FSM_State_h
-#define FSM_State_h
+#include "BaseManager.h"
 
-namespace fsm
+int fsm::BaseManager::m_iNextValidID = 0;
+void fsm::BaseManager::SetID(int val)
 {
-    template <class manager_type>
-    class StateFSM
-    {
-    public:
-        virtual ~StateFSM() {}
-        virtual void Enter(manager_type *) = 0;
-        virtual void Execute(manager_type *) = 0;
-        virtual void Exit(manager_type *) = 0;
-    };
+    m_ID = val;
+    m_iNextValidID = m_ID + 1;
 }
-#endif

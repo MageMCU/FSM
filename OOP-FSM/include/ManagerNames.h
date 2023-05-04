@@ -1,6 +1,6 @@
 //
 // Carpenter Software
-// File: include: State.h
+// File: include: ManagerNames.h
 //
 // Purpose: Public Github Account - MageMCU
 // Repository: FSM
@@ -22,19 +22,28 @@
 // MIT LICENSE
 //
 
-#ifndef FSM_State_h
-#define FSM_State_h
+#ifndef FSM_Manager_Names_h
+#define FSM_Manager_Names_h
 
-namespace fsm
+enum
 {
-    template <class manager_type>
-    class StateFSM
+    manager_fsm = 1,
+    manager_util
+};
+
+inline int GetManagerID(int n)
+{
+    switch (n)
     {
-    public:
-        virtual ~StateFSM() {}
-        virtual void Enter(manager_type *) = 0;
-        virtual void Execute(manager_type *) = 0;
-        virtual void Exit(manager_type *) = 0;
-    };
+    // Used
+    case manager_fsm:
+        return manager_fsm;
+
+    case manager_util:
+        return manager_util;
+
+    default:
+        return -1;
+    }
 }
 #endif

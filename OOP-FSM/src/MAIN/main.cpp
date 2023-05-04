@@ -1,6 +1,6 @@
 //
 // Carpenter Software
-// File: include: State.h
+// File: src: MAIN: main.cpp
 //
 // Purpose: Public Github Account - MageMCU
 // Repository: FSM
@@ -22,19 +22,30 @@
 // MIT LICENSE
 //
 
-#ifndef FSM_State_h
-#define FSM_State_h
+#include <Arduino.h>
 
-namespace fsm
+#include "ManagerFSM.h"
+#include "ManagerNames.h"
+#include "Timer.h"
+
+fsm::ManagerFSM sm;
+nmr::Timer loopTimer;
+
+void setup()
 {
-    template <class manager_type>
-    class StateFSM
+    Serial.begin(9600);
+    while (!Serial)
     {
-    public:
-        virtual ~StateFSM() {}
-        virtual void Enter(manager_type *) = 0;
-        virtual void Execute(manager_type *) = 0;
-        virtual void Exit(manager_type *) = 0;
-    };
+        /* code */
+    }
+
+    sm = fsm::ManagerFSM(manager_fsm);
 }
-#endif
+
+void loop()
+{
+    if (loopTimer.isTimer(250))
+    {
+        sm.Update();
+    }
+}

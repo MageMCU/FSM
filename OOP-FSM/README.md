@@ -1,22 +1,26 @@
 ## OOP-FSM
-- Templated object oriented programming (**OOP**)
 - Finite State Machine (**FSM**)
+    - Templated object oriented programming (**OOP**)
 
-## ***include folder***
-- **BaseEntity.h** 
-- **EntityNames.h**  
-- **IdleState.h** 
-    - Issue: line 45 - 20230416 (See ***FSM Issue 20230416***: Articles and Data Folder)
-- **Manager.h**   
+## *include folder*
+- **BaseManager.h** 
+- **ManagerFSM.h**  
+- **ManagerNames.h** 
 - **State.h**   
-- **StyateMachine.h**  
-- **TestState.h**    
+- **StateMachine.h**  
+- **States.h**    
 - **Timer.h**  
     - Located in the repository *Numerics*.
 
-## ***src folder***
-- main.cpp
+## *src folder*
+- MAIN
+    - main.cpp
+- TESTS
+    - empty
+- XCPP
+    - BaseManager.cpp
+    - States.cpp
 
-## ***root folder***
+## *root folder*
 - platformio.ini
     - Please review this document for platform configuration while testing the code.
