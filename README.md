@@ -12,10 +12,10 @@
 - **Visual Studio Code** is a streamlined code editor and it runs on macOS, Linux, and Windows. The best thing about VSCode, it is free.
 
 ### In Development
-- Nearly complete - all issues were fixed... 20340503
+- Nearly complete - all issues were fixed... 20230503
 
 ### Issues
-- As of 20340503
+- As of 20230503
     - CFP-FSM: no issues.
     - OOP-FSM: no issues. 
 
