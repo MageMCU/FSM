@@ -11,7 +11,7 @@
     - **States**: Represent distinct operational modes of the system.
     - **Events/Inputs**: Triggers that cause the FSM to transition between states.
     - **Transitions**: Rules that define how the FSM moves from one state to another based on events.
-    - **Actions**: Tasks performed when entering, exiting, or while in a specific state. 
+    - **Actions**: Tasks performed when entering, exiting, or while in a specific state. See development below for more details...
 
 ```
     typedef enum {
