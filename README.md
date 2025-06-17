@@ -2,9 +2,9 @@
 - Programming Game AI by Example (2005)
     - Mat Buckland
 - Before robotics, there was game development that included Artificial Intelligence. Code written by Mat Buckland works well with the Arduino Uno particularly his Finite State Machine. The book overall is easy reading and it's fun to apply the AI concepts to the Arduino. Of course, the code does not work as written from the book into the Arduino without tweaking it but the code can be made to function as described in the book.
-- Game-AI folder contains Buckland's code.
-- Tweaked folder contains the Bucklan's code from chapter 2 *WestWorldWithWoman* that was tweaked for Arduino as exactly described in the book.
-- Modified folder contains a practical skeleton of Buckland's FSM for Arduino.
+- **Game-AI** folder contains Buckland's code.
+- **Tweaked** folder contains the Bucklan's code from chapter 2 *WestWorldWithWoman* that was tweaked for Arduino as exactly described in the book. 
+- **Modified** folder contains a practical skeleton of Buckland's FSM for Arduino.
 
 ##  Finite State Machine (FSM)
 - A C-style finite state machine (FSM) is a way to implement a system that can be in one of a limited number of states, transitioning between them based on inputs or events. It's commonly used in embedded systems and event-driven applications due to its simplicity and efficiency.
