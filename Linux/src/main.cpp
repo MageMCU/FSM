@@ -1,7 +1,7 @@
-
+// Could work with iostream
 // #include <iostream>
+// Reduced memory usage
 #include <cstdio>
-
 #include <signal.h>
 
 #include "Locations.h"
@@ -13,7 +13,6 @@
 
 using namespace std;
 
-// fsm::ManagerFSM sm;
 csjc::Timer loopTimer;
 
 // create a miner
@@ -27,7 +26,6 @@ int _err_ = 0;
 
 void setup()
 {
-    // sm = fsm::ManagerFSM(manager_fsm);
     loopTimer = csjc::Timer();
 }
 
@@ -41,7 +39,6 @@ void loop()
         printf("%d\n", cnt++);
         Bob.Update();
         Elsa.Update();
-        // sm.Update();
     }
 }
 
