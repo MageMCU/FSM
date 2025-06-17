@@ -96,5 +96,5 @@ Although the pseudocode above is a simplified, human-readable representation of 
 
 ## In Development
 - 20250615 Modified folder contains a simple Red, Yellow, Green light system... The modified version is a simpler derivation from Mat Buckland FSM which can be used for the Arduino Uno.
-- 20250617 Linux folder contains code for booth Ubuntu 22.04 and Raspberry Pi OS.
+- 20250617 Linux folder contains code for both the Ubuntu 22.04 OS and Raspberry Pi OS.
 
