@@ -94,5 +94,5 @@ Although the pseudocode above is a simplified, human-readable representation of 
 - **Visual Studio Code** is a streamlined code editor and it runs on macOS, Linux, and Windows. The best thing about VSCode, it is free.
 
 ## In Development
-- 20250615 Modified folder...
+- 20250615 Modified folder is contains a simple Red, Yellow, Green light system... The modified version is a simpler derivation from Mat Buckland FSM which can be used for the Arduino Uno.
 
