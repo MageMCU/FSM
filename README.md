@@ -99,5 +99,8 @@ Although the pseudocode above is a simplified, human-readable representation of 
 - 20250617 Linux folder contains code for both the Ubuntu 22.04 OS and Raspberry Pi OS.
 
 ## Note
+- Repository renamed from FSM to Finite-State-Machine
+
+## Note
 - Repository renamed from FSM to Finite-State-Machine.
 
