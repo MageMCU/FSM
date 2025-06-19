@@ -6,7 +6,7 @@
 - **Tweaked** folder contains the Bucklan's code from chapter 2 *WestWorldWithWoman* that was tweaked for Arduino as exactly described in the book. This functions with the Arduino Uno.
 - **Modified** folder contains a practical skeleton of Buckland's FSM for Arduino. This functions with the Arduino Uno but contains barebones code.
 - **Linux** folder contains the code that functions on Ubuntu 22.04 or Raspberry Pi OS.
-- Code development like a finte state machine would be difficult using a small device like the Uno while using its Serial.print() functions for debugging. The VSCode editor the GNU Compiler Collection on Ubuntu 22.04 or Raspberry Pi OS provides various features and mechanisms to support assertions and error checking in your code. 
+- Code development like a finte state machine would be difficult using a small device like the Uno while using its Serial.print() functions for debugging. The VSCode editor with the GCC (GNU Compiler Collection) on Ubuntu 22.04 or Raspberry Pi OS provides various features and mechanisms to support assertions and error checking in your code. 
 
 ##  Finite State Machine (FSM)
 - A C-style finite state machine (FSM) is a way to implement a system that can be in one of a limited number of states, transitioning between them based on inputs or events. It's commonly used in embedded systems and event-driven applications due to its simplicity and efficiency.
