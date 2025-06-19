@@ -80,7 +80,7 @@
       currentState.stateFunction(event);
     }
 ```
-Although the code snippets although incomplete yet seen as pseudocode is a simplified, human-readable representation of an algorithm. It's not the Arduino C++ programming language and can't be executed by a computer. Instead, it serves as a planning tool for developers, allowing them to outline the logic of a program before writing actual code. 
+Although the code snippets although incomplete yet seen as pseudocode is a simplified, human-readable representation of an algorithm. It's more vague than an Arduino C++ programming language and because the code is incomplete, it can't be executed by a computer. Instead, it serves as a planning tool for developers, allowing them to outline the logic of a program before writing actual code. 
 - Beside the two previous FSM, State Tables represent the FSM's state transitions in a table (e.g., a 2D array). The rows represent states, columns represent events, and table entries contain the next state. This approach can be more efficient for complex state machines with many states and events. 
 - Designing a Finite State Machine (FSM) involves defining states, transitions, and inputs to control the behavior of a system. The process typically includes understanding the problem, drawing a state diagram, encoding states, designing next-state logic, and implementing the FSM. 
     - State Diagram: A visual representation of the FSM, showing states and transitions. 
